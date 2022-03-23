@@ -1,4 +1,4 @@
-@import "DesignTokens.css";
+@import "../build/css/_variables.css";
 
 .App {
   text-align: center;

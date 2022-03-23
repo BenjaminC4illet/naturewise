@@ -15,6 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build-dictionary": "node build.js", 
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
@@ -60,6 +61,7 @@
     "@storybook/react": "^6.4.19",
     "@storybook/testing-library": "^0.0.9",
     "storybook-design-token": "^2.0.0",
+    "style-dictionary": "^3.7.0",
     "webpack": "^5.70.0"
   }
 }
