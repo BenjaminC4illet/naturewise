@@ -1,5 +1,7 @@
+@import "../App.css";
+
 .storybook-button {
-  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   border: 0;
   border-radius: 3em;
@@ -9,12 +11,12 @@
 }
 .storybook-button--primary {
   color: white;
-  background-color: #1ea7fd;
+  background-color: var(--b100);
 }
 .storybook-button--secondary {
-  color: #333;
+  color: var(--b200);
   background-color: transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+  box-shadow: var(--b200) 0px 0px 0px 1px inset;
 }
 .storybook-button--small {
   font-size: 12px;
