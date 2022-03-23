@@ -1,3 +1,130 @@
 {
-  "global": {}
+  "global": {
+    "colors": {
+      "Pastel_PastelGreen": {
+        "value": "#e9fcea",
+        "type": "color"
+      },
+      "Pastel Green": {
+        "value": "#7ae582",
+        "type": "color"
+      },
+      "Caribbean Green": {
+        "value": "#00d19f",
+        "type": "color"
+      },
+      "Tiffany Blue": {
+        "value": "#00b9ba",
+        "type": "color"
+      },
+      "Rich Electric Blue": {
+        "value": "#009ec8",
+        "type": "color"
+      },
+      "NCS Blue": {
+        "value": "#0081c5",
+        "type": "color"
+      },
+      "Medium Persian Blue": {
+        "value": "#0061ae",
+        "type": "color"
+      },
+      "White": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "Cultured": {
+        "value": "#f5f5f5",
+        "type": "color"
+      },
+      "Chinese White": {
+        "value": "#e1e1e1",
+        "type": "color"
+      },
+      "Chinese Silver": {
+        "value": "#cdcdcd",
+        "type": "color"
+      },
+      "Argent": {
+        "value": "#bfbfbf",
+        "type": "color"
+      },
+      "Chinese Black": {
+        "value": "#121212",
+        "type": "color"
+      },
+      "Dark Charcoal": {
+        "value": "#2f2f2f",
+        "type": "color"
+      },
+      "Pastel_red": {
+        "value": "#fce9e9",
+        "type": "color"
+      },
+      "Status": {
+        "Error": {
+          "value": "#fc6969",
+          "type": "color"
+        },
+        "Warning": {
+          "value": "#fcb069",
+          "type": "color"
+        },
+        "Success": {
+          "value": "#89da8f",
+          "type": "color"
+        }
+      }
+    },
+    "Data": {
+      "Teal": {
+        "value": "#00c0c7",
+        "type": "color"
+      },
+      "Blue": {
+        "value": "#2780eb",
+        "type": "color"
+      },
+      "Lilac": {
+        "value": "#9089fa",
+        "type": "color"
+      },
+      "Indigo": {
+        "value": "#5144d3",
+        "type": "color"
+      },
+      "Purple": {
+        "value": "#6f38b1",
+        "type": "color"
+      },
+      "Pink": {
+        "value": "#da3490",
+        "type": "color"
+      },
+      "Orange": {
+        "value": "#e8871a",
+        "type": "color"
+      },
+      "Dark orange": {
+        "value": "#cb6f10",
+        "type": "color"
+      },
+      "Gold": {
+        "value": "#dfbf03",
+        "type": "color"
+      },
+      "Light green": {
+        "value": "#9bec54",
+        "type": "color"
+      },
+      "Green": {
+        "value": "#47e26f",
+        "type": "color"
+      },
+      "Dark green": {
+        "value": "#268d6c",
+        "type": "color"
+      }
+    }
+  }
 }
