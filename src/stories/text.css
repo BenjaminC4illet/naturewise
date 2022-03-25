@@ -1,0 +1,32 @@
+@import "../App.css";
+@import "../_variables.css";
+
+.storybook-text {
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .storybook-text--h1{
+    font-size: var( --sd-global-font-size-6);
+    letter-spacing: var( --sd-global-letter-spacing-0);
+    line-height: var(  --sd-global-line-heights-0);
+  }
+
+  .storybook-text--h2{
+    font-size: var( --sd-global-font-size-5);
+    letter-spacing: var( --sd-global-letter-spacing-0);
+    line-height: var(  --sd-global-line-heights-1);
+  }
+
+  .storybook-text--h3{
+    font-size: var( --sd-global-font-size-4);
+    letter-spacing: var( --sd-global-letter-spacing-1);
+    line-height: var(  --sd-global-line-heights-2);
+  }
+
+  .storybook-text--h4{
+    font-size: var( --sd-global-font-size-3);
+    letter-spacing: var( --sd-global-letter-spacing-1);
+    line-height: var(  --sd-global-line-heights-3);
+  }

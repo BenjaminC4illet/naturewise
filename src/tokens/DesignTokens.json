@@ -197,31 +197,31 @@
     },
     "fontSize": {
       "0": {
-        "value": "10",
+        "value": "10pt",
         "type": "fontSizes"
       },
       "1": {
-        "value": "12",
+        "value": "12pt",
         "type": "fontSizes"
       },
       "2": {
-        "value": "15",
+        "value": "15pt",
         "type": "fontSizes"
       },
       "3": {
-        "value": "19",
+        "value": "19pt",
         "type": "fontSizes"
       },
       "4": {
-        "value": "23",
+        "value": "23pt",
         "type": "fontSizes"
       },
       "5": {
-        "value": "28",
+        "value": "28pt",
         "type": "fontSizes"
       },
       "6": {
-        "value": "34",
+        "value": "34pt",
         "type": "fontSizes"
       }
     },

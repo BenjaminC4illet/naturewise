@@ -1,33 +1,60 @@
 @import "../App.css";
-@import "../../build/css/_variables.css";
+@import "../_variables.css";
 
 .storybook-button {
-  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-weight: 700;
   border: 0;
-  border-radius: 3em;
+  border-radius: 8px;
   cursor: pointer;
-  display: inline-block;
-  line-height: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 44px;
+  text-transform: uppercase;
+  letter-spacing: 3%;
+  font-size: 15px;
+  padding: 3px 16px 3px 16px;
+  justify-content: center;
 }
 .storybook-button--primary {
   color: white;
-  background-color: var(--sd-global-colors-pastel-green);
+  background-color: var(--sd-global-colors-chinese-black);
+  box-shadow: none;
+  transition: box-shadow .3s ease-in-out;
+}
+.storybook-button--primary:hover{
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.15);
+}
+.storybook-button--primary:active{
+  background-color: var(--sd-global-colors-dark-charcoal);
+  box-shadow: none;
+}
+.storybook-button--inactive{
+  opacity: 0.3;
+  pointer-events: none;
 }
 .storybook-button--secondary {
-  color: var(--sd-global-colors-tiffany-blue);
+  color: var(--sd-global-colors-chinese-black);
   background-color: transparent;
-  box-shadow: var(--sd-global-colors-tiffany-blue) 0px 0px 0px 1px inset;
+  border: 1px solid var(--sd-global-colors-chinese-black);
+  transition: background-color .3s ease-in-out;
+
 }
-.storybook-button--small {
-  font-size: 12px;
-  padding: 10px 16px;
+.storybook-button--secondary:hover {
+  background-color: var(--sd-global-colors-cultured);
+}
+.storybook-button--secondary:active {
+  background-color: var(--sd-global-colors-chinese-white);
 }
 .storybook-button--medium {
-  font-size: 14px;
+  font-size: 15px;
   padding: 11px 20px;
 }
-.storybook-button--large {
-  font-size: 16px;
-  padding: 12px 24px;
+.storybook-button--icon > .img {
+  display: initial;
+  margin-left: 8px;
+}
+.storybook-button--plain > .img {
+  display: none;
 }

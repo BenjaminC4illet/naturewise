@@ -1,0 +1,106 @@
+/**
+ * Do not edit directly
+ * Generated on Thu, 24 Mar 2022 14:09:07 GMT
+ */
+
+:root {
+
+   /**
+  * @tokens Colors
+  * @presenter Color
+  */
+  
+  --sd-global-colors-pastel-pastel-green: #e9fcea;
+  --sd-global-colors-pastel-green: #7ae582;
+  --sd-global-colors-caribbean-green: #00d19f;
+  --sd-global-colors-tiffany-blue: #00b9ba;
+  --sd-global-colors-rich-electric-blue: #009ec8;
+  --sd-global-colors-ncs-blue: #0081c5;
+  --sd-global-colors-medium-persian-blue: #0061ae;
+  --sd-global-colors-white: #ffffff;
+  --sd-global-colors-cultured: #f5f5f5;
+  --sd-global-colors-chinese-white: #e1e1e1;
+  --sd-global-colors-chinese-silver: #cdcdcd;
+  --sd-global-colors-argent: #bfbfbf;
+  --sd-global-colors-chinese-black: #121212;
+  --sd-global-colors-dark-charcoal: #2f2f2f;
+  --sd-global-colors-pastel-red: #fce9e9;
+  --sd-global-colors-status-error: #fc6969;
+  --sd-global-colors-status-warning: #fcb069;
+  --sd-global-colors-status-success: #89da8f;
+  --sd-global-data-teal: #00c0c7;
+  --sd-global-data-blue: #2780eb;
+  --sd-global-data-lilac: #9089fa;
+  --sd-global-data-indigo: #5144d3;
+  --sd-global-data-purple: #6f38b1;
+  --sd-global-data-pink: #da3490;
+  --sd-global-data-orange: #e8871a;
+  --sd-global-data-dark-orange: #cb6f10;
+  --sd-global-data-gold: #dfbf03;
+  --sd-global-data-light-green: #9bec54;
+  --sd-global-data-green: #47e26f;
+  --sd-global-data-dark-green: #268d6c;
+
+  /**
+  * @tokens FontFamily
+  * @presenter FontFamily
+  */
+
+  --sd-global-font-families-montserrat: Montserrat;
+
+
+  /**
+  * @tokens LineHeight
+  * @presenter LineHeight
+  */
+
+  --sd-global-line-heights-0: 54.4px;
+  --sd-global-line-heights-1: 44.8px;
+  --sd-global-line-heights-2: 36.8px;
+  --sd-global-line-heights-3: 30.4px;
+  --sd-global-line-heights-4: 19.2px;
+  --sd-global-line-heights-5: 24px;
+  --sd-global-line-heights-6: 44px;
+  --sd-global-line-heights-7: 16px;
+
+    /**
+  * @tokens FontWeight
+  * @presenter FontWeight
+  */
+
+  --sd-global-font-weights-montserrat-0: Bold;
+  --sd-global-font-weights-montserrat-1: SemiBold;
+  --sd-global-font-weights-montserrat-2: Medium;
+  --sd-global-font-weights-montserrat-3: Regular;
+
+  /**
+  * @tokens FontSize
+  * @presenter FontSize
+  */
+
+  --sd-global-font-size-0: 10pt;
+  --sd-global-font-size-1: 12pt;
+  --sd-global-font-size-2: 15pt;
+  --sd-global-font-size-3: 19pt;
+  --sd-global-font-size-4: 23pt;
+  --sd-global-font-size-5: 28pt;
+  --sd-global-font-size-6: 34pt;
+
+  /**
+  * @tokens LetterSpacing
+  * @presenter LetterSpacing
+  */
+
+  --sd-global-letter-spacing-0: 3%;
+  --sd-global-letter-spacing-1: 2.5%;
+  --sd-global-paragraph-spacing-0: 0;
+
+   /**
+  * @tokens Others
+  */
+
+  --sd-global-text-case-none: none;
+  --sd-global-text-case-uppercase: uppercase;
+  --sd-global-text-decoration-none: none;
+  --sd-global-shadow-selected: [object Object];
+}

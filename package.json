@@ -4,9 +4,12 @@
   "private": true,
   "dependencies": {
     "@storybook/addon-a11y": "^6.4.19",
+    "@storybook/addon-controls": "^6.4.19",
+    "@storybook/addon-docs": "^6.4.19",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
+    "chromatic": "^6.5.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
@@ -15,7 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build-dictionary": "node build.js", 
+    "build-dictionary": "node build.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
