@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Button } from './stories/Button.jsx';
 import { Text } from './stories/Text.jsx';
+import { Card } from './stories/Card.jsx';
 
 function App() {
   const maintitle = 'Fight pollution with a better understanding of its effects on your health.';

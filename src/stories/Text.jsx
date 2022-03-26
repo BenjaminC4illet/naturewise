@@ -8,7 +8,7 @@ import './text.css';
 export const Text = ({ label, type, ...props }) => {
   return (
     <p
-      className={['storybook-text', `storybook-text--${type}`].join(' ')}
+      className={['storybook-text', `storybook-text--${type}`, `${type}`].join(' ')}
       {...props}
     >
         {label}
