@@ -19,7 +19,7 @@
 }
 .storybook-button--primary {
   color: white;
-  background-color: var(--sd-global-colors-cultured);
+  background-color: var(--sd-global-chinese-black);
   box-shadow: none;
   transition: box-shadow .3s ease-in-out;
 }
@@ -27,7 +27,7 @@
   box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.15);
 }
 .storybook-button--primary:active{
-  background-color: var(--sd-global-colors-dark-charcoal);
+  background-color: var(--sd-global-colors-chinese-black);
   box-shadow: none;
 }
 .storybook-button--inactive{
