@@ -38,17 +38,20 @@ li{
   background: var( --sd-global-colors-chinese-black);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 .cardHeader > p{
   background: var( --sd-global-colors-chinese-silver);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .storybook-card--true > .cardHeader > p{
   background: conic-gradient(from 4.384rad, #00D19F, #7AE582);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .storybook-card--true{

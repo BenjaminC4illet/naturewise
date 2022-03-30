@@ -32,12 +32,6 @@ html{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
-  animation-name: rotate;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
-  animation-timing-function: linear;
-  transition: 1s ease-in-out all
 }
 
 img{
@@ -55,24 +49,4 @@ img{
 .baseline{
   text-align: left;
   font-size: var( --sd-global-font-size-2);
-}
-
-@keyframes rotate {
-  0% {
-    background: conic-gradient(from 0rad, #00D19F, #7AE582);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  50% {
-    background: conic-gradient(from 180rad, #00D19F, #7AE582);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  100% {
-    background: conic-gradient(from 360rad, #00D19F, #7AE582);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
 }
