@@ -5,7 +5,7 @@
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-weight: 700;
   border: 0;
-  border-radius: 8px;
+  border-radius: var(--sd-global-radius-tinyRound);
   cursor: pointer;
   display: flex;
   flex-direction: row;
@@ -13,7 +13,7 @@
   height: 44px;
   text-transform: uppercase;
   letter-spacing: 3%;
-  font-size: 15px;
+  font-size: var(--sd-global-font-size-2);
   padding: 3px 16px 3px 16px;
   justify-content: center;
 }
@@ -48,7 +48,7 @@
   background-color: var(--sd-global-colors-chinese-white);
 }
 .storybook-button--medium {
-  font-size: 15px;
+  font-size: var(--sd-global-font-size-2);
   padding: 11px 20px;
 }
 .storybook-button--icon > .img {

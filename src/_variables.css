@@ -118,6 +118,7 @@
   * @tokens BorderRadius
   * @presenter BorderRadius
   */
+  --sd-global-radius-tinyRound: 8px;
   --sd-global-radius-round: 10px;
   --sd-global-radius-rounder: 20px;
   --sd-global-radius-roundMax: 999px;
