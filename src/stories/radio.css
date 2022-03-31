@@ -1,0 +1,44 @@
+@import "../App.css";
+@import "../_variables.css";
+
+.storybook-radio {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  display: inline-block;
+  position: relative;
+  padding: 0 6px;
+  margin: 10px 0 0;
+}
+
+.storybook-radio input[type='radio'] {
+  display: none;
+}
+
+.storybook-radio label:before {
+  content: " ";
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  margin: 0 5px 0 0;
+  width: var(--sd-global-spacing-1);
+  height: var(--sd-global-spacing-1);
+  border-radius: var(--sd-global-radius-roundMax);
+  border: 2px solid var(--sd-global-colors-chinese-white);
+  background-color: transparent;
+}
+
+.storybook-radio input[type=radio]:checked + label:after {
+  border-radius: var(--sd-global-radius-roundMax);
+  width: var(--sd-global-spacing-0);
+  height: var(--sd-global-spacing-0);
+  position: absolute;
+  top: 11px;
+  left: 12px;
+  content: " ";
+  display: block;
+  background: var(--sd-global-colors-pastel-green);
+}
+
+.storybook-radio--inactive{
+  opacity: var(--sd-global-opacity-0);
+  pointer-events: none;
+}

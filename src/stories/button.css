@@ -19,7 +19,7 @@
 }
 .storybook-button--primary {
   color: white;
-  background-color: var(--sd-global-chinese-black);
+  background-color: var(--sd-global-colors-chinese-black);
   box-shadow: none;
   transition: box-shadow .3s ease-in-out;
 }
@@ -31,7 +31,7 @@
   box-shadow: none;
 }
 .storybook-button--inactive{
-  opacity: 0.3;
+  opacity: var(--sd-global-opacity-0);
   pointer-events: none;
 }
 .storybook-button--secondary {

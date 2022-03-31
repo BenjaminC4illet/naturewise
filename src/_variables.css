@@ -49,6 +49,14 @@
   --sd-global-font-families-montserrat: Montserrat;
 
 
+ /**
+  * @tokens Opacity
+  * @presenter Opacity
+  */
+
+  --sd-global-opacity-0: 30%;
+
+
   /**
   * @tokens LineHeight
   * @presenter LineHeight
@@ -95,7 +103,26 @@
   --sd-global-letter-spacing-1: 2.5%;
   --sd-global-paragraph-spacing-0: 0;
 
-   /**
+/**
+  * @tokens Spacing
+  * @presenter Spacing
+  */
+
+  --sd-global-spacing-0: 8px;
+  --sd-global-spacing-1: 16px;
+  --sd-global-spacing-2: 24px;
+  --sd-global-spacing-3: 32px;
+  --sd-global-spacing-4: 40px;
+  
+  /**
+  * @tokens BorderRadius
+  * @presenter BorderRadius
+  */
+  --sd-global-radius-round: 10px;
+  --sd-global-radius-rounder: 20px;
+  --sd-global-radius-roundMax: 999px;
+  
+  /**
   * @tokens Others
   */
 
