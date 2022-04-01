@@ -1,9 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import { Button } from './stories/Button.jsx';
 import { Text } from './stories/Text.jsx';
-import { Card } from './stories/Card.jsx';
-import { Radio } from './stories/Radio.jsx';
 
 function App() {
   const maintitle = 'Fight pollution with a better understanding of its effects on your health.';
@@ -11,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <div className='logo'>
-        <img src={require("../src/img/black.png")}></img>
+        <img src={require("../src/img/black.png")} alt='NatureWise Logo'></img>
         <Text type='h1' label= {maintitle}></Text>
         <p className='baseline'>{baseline}</p>
       </div>

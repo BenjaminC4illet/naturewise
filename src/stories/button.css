@@ -19,7 +19,7 @@
 }
 .storybook-button--primary {
   color: white;
-  background-color: var(--sd-global-colors-cultured);
+  background-color: var(--sd-global-colors-dark-charcoal);
   box-shadow: none;
   transition: box-shadow .3s ease-in-out;
 }

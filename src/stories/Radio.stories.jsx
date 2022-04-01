@@ -4,7 +4,7 @@ import { Radio } from './Radio';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: 'Components/Radio',
+  title: 'Components/Atoms/Radio',
   component: Radio,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
